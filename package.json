@@ -1,0 +1,26 @@
+{
+  "name": "blog",
+  "version": "0.1.0",
+  "description": "myblog",
+  "author": "DeadBlue",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "license": "MIT",
+  "bin": {
+    "myblog": "./bin/myblog"
+  },
+  "dependencies": {
+    "commander": "^2.9.0",
+    "express": "^4.13.4",
+    "fs-extra": "^0.26.5",
+    "markdown-it": "^6.0.0",
+    "moment": "^2.11.2",
+    "open": "0.0.5",
+    "rd": "0.0.2",
+    "serve-static": "^1.10.2",
+    "swig": "^1.4.2"
+  }
+}
